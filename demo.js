@@ -5,3 +5,5 @@ function getProjectLabel(project) {
 }
 
 module.exports = { getProjectLabel };
+
+// Integration check: repository-scoped quality review.
