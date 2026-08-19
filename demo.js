@@ -1,6 +1,7 @@
 function getProjectLabel(project) {
   if (!project || !project.name) return 'Unknown project';
-  return `${project.name} (${project.repository})`;
+  const repository = project.repository || 'repository unavailable';
+  return `${project.name} (${repository})`;
 }
 
 module.exports = { getProjectLabel };
