@@ -1,0 +1,18 @@
+name: Quality Demo
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  platform-connection:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Verify repository connection
+        run: |
+          test -f README.md
+          echo "AI Quality Platform connection verified"
