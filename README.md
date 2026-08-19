@@ -12,3 +12,7 @@ It is used to demonstrate:
 ## Demo check
 
 The platform should record this initial commit and keep its data isolated under the `Aubnsh22/Test` repository.
+
+## Pull request review test
+
+This change validates AI review, TNR generation, Markdown reporting, and email notification for this repository.
